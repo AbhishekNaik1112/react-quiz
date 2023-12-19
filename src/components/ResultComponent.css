@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 50%;
+  height: 50%;
+  background-color: #000000;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.card div {
+  display: flex;
+  justify-content: space-between;
+}
+
+div button {
+  margin: 0 50px;
+}
+
+#again {
+  background-color: #2196f3;
+  box-shadow: none;
+  font-size: 20px;
+}
+#home {
+  background-color: #00ff77;
+  box-shadow: none;
+  font-size: 20px;
+}
