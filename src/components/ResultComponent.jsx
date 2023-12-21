@@ -1,11 +1,11 @@
 import "./ResultComponent.css";
 
-function ResultComponent({ setState }) {
+function Result() {
   return (
     <div className="container">
       <h1
         style={{
-          color: "#4CAF50",
+          color: "#07da53",
         }}
       >
         Result
@@ -33,7 +33,7 @@ function ResultComponent({ setState }) {
         </div>
         <div className="details">
           <b>
-            <p>Number of correct answers</p>
+            <p>Number of currect answers</p>
           </b>
           <b>
             <p>3</p>
@@ -49,25 +49,11 @@ function ResultComponent({ setState }) {
         </div>
       </div>
       <div>
-        <button
-          id="again"
-          onClick={() => {
-            setState(2);
-          }}
-        >
-          Play Again
-        </button>
-        <button
-          id="home"
-          onClick={() => {
-            setState(1);
-          }}
-        >
-          Back to Home
-        </button>
+        <button id="again">Play Again</button>
+        <button id="home">Back to Home</button>
       </div>
     </div>
   );
 }
 
-export default ResultComponent;
+export default Result;
