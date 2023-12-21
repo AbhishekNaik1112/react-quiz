@@ -1,6 +1,6 @@
 import "./HomeComponent.css";
 
-function Home({ setState }) {
+function HomeComponent({ setState }) {
   return (
     <div className="container">
       <h1>Welcome to Quiz</h1>
@@ -15,4 +15,4 @@ function Home({ setState }) {
   );
 }
 
-export default Home;
+export default HomeComponent;
